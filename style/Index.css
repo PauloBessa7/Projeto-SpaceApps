@@ -18,13 +18,19 @@ img{
 }
 
 
+#barra-pesquisa{
+  border: none;
+  outline: none;
+  width: 300px;
+}
 
 #pesquisa{
-  width: 320px;
+  padding-left: 5px;
+  width: 210px;
   height: 20px;
   background-color: none;
-  border: 1px solid black; 
-  border-radius: 10px;
+  border: 0.1px solid black; 
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -34,6 +40,8 @@ img{
   font-size: 10px; /* Tamanho do ícone */
   color: black; /* Cor do ícone */
   padding: 10px; /* Espaçamento interno da div */
+  cursor: pointer;
+  
 }
 
 #perfil{
@@ -199,6 +207,30 @@ img{
 
   border-radius: 0px 0px 10px 10px;
 }
+
+#Imagem-venus{
+  background-image: url(../images/venus.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+#Imagem-mercurio{
+  background-image: url(../images/mercurio.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+
 
 .card h2 {
   font-size: 18px;
