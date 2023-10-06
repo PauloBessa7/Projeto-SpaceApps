@@ -4,6 +4,11 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -41,7 +46,7 @@ img{
   color: black; /* Cor do ícone */
   padding: 10px; /* Espaçamento interno da div */
   cursor: pointer;
-  
+
 }
 
 #perfil{
@@ -59,6 +64,18 @@ img{
   justify-content: center;
   border-radius: 100px;
   padding: 5px 5px;
+}
+
+#Pesquisar{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  
+  
+  width: auto;
+  height: auto;
+  padding: 1px;
+
 }
 
 #item-menu:hover{
@@ -249,4 +266,135 @@ img{
   
   height: 50%;
   
+}
+/* =============== Link da função a  ================= */
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+/* =============== Pagina Companhias   HEADER  ================= */
+header{
+  display: flex;
+  align-items: center;
+  margin: 40px 50px 60px 50px;
+  justify-content: space-between;
+
+  /* border-bottom: 1px solid lightgray; */
+  padding-bottom: 15px;
+  
+}
+
+#Origem ,#data-chegada, #data-saida, #Destino, #Duração{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =============== Pagina Companhias   MAIN / SECTION class:COMPANHIAS  ================= */
+
+#Escolha-Companhia{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.Companhia{
+  margin-bottom: 60px;
+  
+  width: 89vw;
+  height: auto;
+  
+  border-bottom: 1px solid lightgray;
+
+  /* border-radius: 9px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  cursor: pointer;
+
+}
+
+.Companhia:hover{
+  scale: 103%;
+  transition: .3s;
+  box-shadow: 0px 4px 10px rgba(21, 255, 0, 0.185);
+}
+
+div#Nasa{
+  background-size: cover;
+  background-attachment: local;
+  background-image:url(../images/nasa.png);
+  height: 100px;
+  width: 100px;
+  background-position: center center;
+}
+div#SpaceX {
+  background-size: 100% 100%;
+  background-attachment: local;
+  background-image: url(../images/spacex.png);
+  height: 100px;
+  width: 140px;
+  background-position: center center;
+}
+div#OrioSpan{
+  background-size: cover;
+  background-attachment: local;
+  background-image:url(../images/OrionSpan.png);
+  height: 100px;
+  width: 140px;
+  background-position: center center;
+}
+
+#Mais-Companhias{
+  margin-bottom: 60px;
+  
+  width: 20px;
+  height: 20px;
+  
+  border: 1px solid black;
+  border-radius: 100%;
+  /* border-radius: 9px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  padding: 5px;
+}
+#Mais-Companhias:hover{
+  scale: 110%;
+  transition: 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.479);
+}
+
+
+/* ========== Testes =========== */
+#Gif-Jupiter{
+  background-size: 100% 100%;
+  background-attachment: local;
+  background-image: url(../images/7fbB.gif);
+  height: 50px;
+  width: 50px;
+  background-position: center center;
+}
+
+/* =============== Pagina Passagens   MAIN / SECTION / HEADER class:COMPANHIAS  ===============*/
+
+#Fundo-Cidade{
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-attachment: local;
+  background-image:url(../images/Design\ sem\ nome\ \(2\).png);
+  height: 30vh;
+  width: 100vw;
+  background-position: center center;
 }
