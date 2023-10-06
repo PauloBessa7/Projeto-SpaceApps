@@ -1,0 +1,220 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+#pesquisa{
+  width: 320px;
+  height: 20px;
+  background-color: none;
+  border: 1px solid black; 
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#lupa {
+  font-size: 10px; /* Tamanho do ícone */
+  color: black; /* Cor do ícone */
+  padding: 10px; /* Espaçamento interno da div */
+}
+
+#perfil{
+  
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 5px 5px;
+}
+#perfil:hover{
+  scale: 110%;
+  transition: 0.3s;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 5px 5px;
+}
+
+#item-menu:hover{
+  scale: 110%;
+  border-bottom: 3px solid lightcoral;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* cabeçalho */
+#cabeçalho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 30px;
+  background-color: rgba(211, 211, 211, 0.199);
+}
+
+/* Div da imagem do astronauta */
+#div-astronauta{
+  background-size: cover;
+  background-attachment: local;
+  background-image:url(../images/Design\ sem\ nome.png);
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#imagem-astronauta{
+  width: 100vw;
+  height: 85vh;
+}
+
+/* Formulário  */
+#Form{
+  
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#formulario{
+
+  padding: 30px;
+  
+  width: 900px;
+  height: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.24);
+  
+  border-radius: 30px;
+
+}
+
+
+/* Cards */
+
+#Cards{
+
+  width: 96vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  
+  
+
+  overflow-x: auto;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 50px 30px;
+  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: inline-block;
+  
+  cursor: pointer;
+}
+
+.card:hover{
+  scale: 103%;
+  transition: 0.5s;
+}
+
+
+#Imagem-Marte{
+  background-image: url(../images/marte.jpg);
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+#Imagem-Jupiter{
+  background-image: url(../images/jupiter.jpg);
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+#Imagem-Saturno{
+  background-image: url(../images/saturno.png);
+  background-position: center ;
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+#Imagem-netuno{
+  background-image: url(../images/netuno.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+#Imagem-urano{
+  background-image: url(../images/urano.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-attachment: local;
+  width: 300px;
+  height: 50%;
+
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+}
+/* Estilize o conteúdo dentro dos cards */
+
+.texto-card{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
+  height: 50%;
+  
+}
